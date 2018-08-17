@@ -1,25 +1,21 @@
 {
-    "caseSensitive": false,
-    "properties": {
-        "name": "main",
-        "environment": {
-            "type": "msgflo"
-        }
+  "properties": {
+    "name": "main",
+    "environment": {
+      "type": "msgflo"
+    }
+  },
+  "processes": {
+    "A": {
+      "component": "ProcessSomething",
+      "metadata": {}
     },
-    "inports": {},
-    "outports": {},
-    "groups": [],
-    "processes": {
-        "A": {
-            "component": "ProcessSomething",
-            "metadata": {
-                "x": 36,
-                "y": 36,
-                "width": 72,
-                "height": 72,
-                "label": "A"
-            }
-        }
-    },
-    "connections": []
+    "tesymcnab/testymc_2tz7w": {
+      "component": "tesymcnab/testymc",
+      "metadata": {}
+    }
+  },
+  "connections": [],
+  "inports": [],
+  "outports": []
 }

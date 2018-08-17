@@ -1,0 +1,11 @@
+component: test
+label: Process input and send some output
+icon: ambulance
+inports:
+  in:
+    queue: process/A/in
+    type: string
+outports:
+  out:
+    queue: process/A/out
+    type: string

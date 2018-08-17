@@ -1,0 +1,9 @@
+component: ProcessSomething
+label: Process input and send some output
+icon: ambulance
+inports:
+  - type: string
+    id: in
+outports:
+  - type: string
+    id: out
