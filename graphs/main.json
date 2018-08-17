@@ -10,14 +10,14 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "msgFlo/daver_er8g4": {
-            "component": "msgFlo/daver",
+        "A": {
+            "component": "ProcessSomething",
             "metadata": {
-                "label": "daver",
-                "x": 972,
-                "y": 252,
+                "x": 36,
+                "y": 36,
                 "width": 72,
-                "height": 72
+                "height": 72,
+                "label": "A"
             }
         }
     },
