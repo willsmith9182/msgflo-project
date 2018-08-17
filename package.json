@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha  --reporter spec spec/*.js",
-    "start": "./node_modules/.bin/msgflo --graph graphs/main.json --auto-save=true --runtime-id=e9c9fca9-c378-437b-98e4-97b556edbec1 --ping-interval=600 --componentdir components"
+    "start": "./node_modules/.bin/msgflo --graph graphs/main.json --auto-save=true --runtime-id=e9c9fca9-c378-437b-98e4-97b856edbec1 --ping-interval=600 --componentdir components"
   },
   "repository": {
     "type": "git",
