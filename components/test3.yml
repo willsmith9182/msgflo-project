@@ -1,0 +1,9 @@
+# Declare MsgFlo participant on behalf of code which does not send discovery message by itself
+component: '15below-test/test3'
+label: 'test 3'
+icon: 'cubes'
+inports:
+  open:
+    queue: /bitraf/door/#ROLE/open
+    type: object
+outports: {}

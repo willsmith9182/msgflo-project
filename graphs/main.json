@@ -6,14 +6,16 @@
     }
   },
   "processes": {
-    "A": {
-      "component": "ProcessSomething",
-      "metadata": {}
-    },
-    "tesymcnab/testymc_2tz7w": {
-      "component": "tesymcnab/testymc",
-      "metadata": {}
-    }
+    "15below-test/test3_s3lpf": {
+      "component": "15below-test/test3",
+      "metadata": {
+        "label": "test3",
+        "x": 648,
+        "y": 288,
+        "width": 72,
+        "height": 72
+      }
+    }   
   },
   "connections": [],
   "inports": [],
